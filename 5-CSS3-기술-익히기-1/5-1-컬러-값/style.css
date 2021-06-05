@@ -1,0 +1,89 @@
+div {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* opacity */
+
+.op1 {
+    opacity: 1;
+}
+.op2 {
+    opacity: 0.8;
+}
+.op3 {
+    opacity: 0.6;
+}
+.op4 {
+    opacity: 0.4;
+}
+.op5 {
+    opacity: 0.2;
+}
+
+/* rgba */
+
+.op6 {
+    background-color: rgba(0, 0, 255, 1);
+}
+.op7 {
+    background-color: rgba(0, 0, 255, 0.8);
+}
+.op8 {
+    background-color: rgba(0, 0, 255, 0.6);
+}
+.op9 {
+    background-color: rgba(0, 0, 255, 0.4);
+}
+.op10 {
+    background-color: rgba(0, 0, 255, 0.2);
+}
+
+/* hsl */
+
+.op11 {
+    background-color: hsl(0, 100%, 50%);
+}
+.op12 {
+    background-color: hsl(120, 100%, 50%);
+}
+.op13 {
+    background-color: hsl(180, 100%, 50%);
+}
+.op14 {
+    background-color: hsl(240, 100%, 50%);
+}
+.op15 {
+    background-color: hsl(300, 100%, 50%);
+}
+
+/* hsla */
+
+.op16 {
+    background-color: hsla(200, 100%, 50%, 1);
+}
+.op17 {
+    background-color: hsla(200, 100%, 50%, 0.8);
+}
+.op18 {
+    background-color: hsla(200, 100%, 50%, 0.6);
+}
+.op19 {
+    background-color: hsla(200, 100%, 50%, 0.4);
+}
+.op20 {
+    background-color: hsla(200, 100%, 50%, 0.2);
+}
+
+/* opacity vs alpha channel */
+
+.op {
+    background-color: rgb(255, 0, 0);
+    opacity: 0.5;
+}
+
+.alpha {
+    background-color: rgba(255, 0, 0, 0.5);
+}

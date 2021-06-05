@@ -1,0 +1,12 @@
+#first p {
+    color: red;
+}
+#first .second {
+    color: blue;
+}
+.second {
+    color: green;
+}
+p {
+    color: purple;
+}

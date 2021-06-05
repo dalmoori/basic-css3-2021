@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first {
+    text-shadow: 2px 2px;
+}
+
+.second {
+    text-shadow: 2px 2px #16a085;
+}
+
+.third {
+    text-shadow: 2px 2px 5px;
+}
+
+.fourth {
+    text-shadow: 2px 2px 5px #16a085;
+}

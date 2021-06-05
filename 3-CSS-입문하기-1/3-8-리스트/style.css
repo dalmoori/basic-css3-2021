@@ -1,0 +1,10 @@
+ol li {
+    list-style-image: url(/images/circle.png);
+    list-style-position: inside;
+}
+
+ul li {
+    list-style-type: "✅";
+    padding-left: 10px;
+    list-style-position: outside;
+}

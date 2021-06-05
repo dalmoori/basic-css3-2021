@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    height: 70vh;
+    grid-template-areas:
+        "header header header"
+        "menu menu menu"
+        "sidebar content content"
+        "sidebar content content"
+        "sidebar content content"
+        "footer footer footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: pink;
+}
+
+.menu {
+    grid-area: menu;
+    background-color: aquamarine;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: lightskyblue;
+}
+
+.content {
+    grid-area: content;
+    background-color: darkkhaki;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: slategray;
+}

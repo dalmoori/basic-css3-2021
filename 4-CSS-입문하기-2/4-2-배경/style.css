@@ -1,0 +1,39 @@
+body {
+    font-size: 18px;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    overflow: auto;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    background-image: url("/images/trees.jpg");
+    background-repeat: no-repeat;
+}
+
+.first {
+    background-attachment: fixed;
+}
+
+.second {
+    background-attachment: scroll;
+}
+
+.third {
+    background-attachment: local;
+}
+
+.one {
+    background-position: left top;
+}
+
+.two {
+    background-position: right bottom;
+}
+
+.three {
+    background-position: 10px 10px;
+}

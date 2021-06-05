@@ -1,0 +1,45 @@
+.kr {
+    color: blue;
+    text-align: left;
+    line-height: 1.8;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-decoration: underline;
+}
+
+.en {
+    text-align: right;
+    line-height: 120%;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-transform: lowercase;
+    text-shadow: 3px 3px 3px grey;
+}
+
+.first {
+    text-align: left;
+    text-transform: lowercase;
+    text-shadow: 2px 2px 5px;
+}
+
+.second {
+    text-align: justify;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px #16a085;
+}
+
+.o {
+    text-decoration: overline;
+}
+
+.u {
+    text-decoration: underline;
+}
+
+.lt {
+    text-decoration: line-through;
+}
+
+.ou {
+    text-decoration: overline underline;
+}

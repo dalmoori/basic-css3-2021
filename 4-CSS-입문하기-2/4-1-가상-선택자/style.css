@@ -1,0 +1,37 @@
+body {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.first-parent > div:first-child {
+    color: red;
+}
+
+.first-parent > div:last-child {
+    color: blue;
+}
+
+.first-parent > div:nth-child(3) {
+    color: green;
+}
+
+.second-parent > div:nth-child(odd) {
+    color: red;
+}
+
+.second-parent > div:nth-child(even) {
+    color: blue;
+}
+
+p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
+}
+
+li::before {
+    content: "♥︎";
+    color: red;
+    margin-right: 10px;
+}
